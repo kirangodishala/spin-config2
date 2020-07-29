@@ -1,0 +1,20 @@
+kubernetes:
+  enabled: true
+  accounts:
+  - name: d-k8s-v2-2
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: []
+    dockerRegistries: []
+    context: oes-context
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: []
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/ubuntu/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
